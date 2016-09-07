@@ -66,7 +66,16 @@ static dispatch_once_t once;
                                               AVMetadataObjectTypeQRCode,
                                               AVMetadataObjectTypeCode128Code,
                                               AVMetadataObjectTypeEAN8Code,
-                                              AVMetadataObjectTypeEAN13Code];
+                                              AVMetadataObjectTypeEAN13Code,
+                                              AVMetadataObjectTypeCode39Mod43Code,
+                                              AVMetadataObjectTypeCode39Code,
+                                              AVMetadataObjectTypeUPCECode,
+                                              AVMetadataObjectTypeCode93Code,
+                                              AVMetadataObjectTypePDF417Code,
+                                              AVMetadataObjectTypeAztecCode,
+                                              AVMetadataObjectTypeInterleaved2of5Code,
+                                              AVMetadataObjectTypeITF14Code,
+                                              AVMetadataObjectTypeDataMatrixCode];
         }
         _avPreviewLayer = [AVCaptureVideoPreviewLayer layerWithSession:_avSession];
         _avPreviewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
