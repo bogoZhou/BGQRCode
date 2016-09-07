@@ -463,10 +463,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liu Canzhen (7V9N2K8CL6)";
 				INFOPLIST_FILE = BGQRCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bg.chenghong.BGQRCode;
+				PRODUCT_BUNDLE_IDENTIFIER = TN.tangchao.noteMan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2c02677c-50b1-42b6-9801-c042f1419e2f";
 			};
 			name = Debug;
 		};
@@ -474,10 +476,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liu Canzhen (7V9N2K8CL6)";
 				INFOPLIST_FILE = BGQRCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bg.chenghong.BGQRCode;
+				PRODUCT_BUNDLE_IDENTIFIER = TN.tangchao.noteMan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2c02677c-50b1-42b6-9801-c042f1419e2f";
 			};
 			name = Release;
 		};
@@ -500,6 +504,7 @@
 				DFE858B21D7FF4B50042EEB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
